@@ -118,5 +118,6 @@ Inference:
 
 generate() / generate_text_simple(): Functions for generating text from a starting prompt.
 
-The final section of the script demonstrates how to use the fine-tuned model for translation on unseen data from the te<img width="1422" height="757" alt="Screenshot 2025-09-28 005930" src="https://github.com/user-attachments/assets/1f5d1e6b-ef45-4b20-8b05-38302f4b8e7f" />
-st set.
+The final section of the script demonstrates how to use the fine-tuned model for translation on unseen data from the test set.<img width="1422" height="757" alt="Screenshot 2025-09-28 005930" src="https://github.com/user-attachments/assets/1f5d1e6b-ef45-4b20-8b05-38302f4b8e7f" />
+
+Test of Translation with 2 epochs were each epoch is of 20000 Steps(Latop wasn't powerfull to train the model fully).
