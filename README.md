@@ -66,10 +66,9 @@ numpy
 accelerate
 🛠️ Setup and Installation
 Clone the Repository
-
 Bash
 
-git clone 
+git clone https://github.com/Ezcanor1/LLM_Based_English_to_Hindi_Language_Translation.git
 cd your-repo-name
 Create a Virtual Environment (Recommended)
 
@@ -93,7 +92,7 @@ To start the fine-tuning process, run the main Python script. The script will ha
 
 Bash
 
-python your_main_script.py
+python Code.py
 You can adjust hyperparameters like the number of epochs (num_epochs), learning rate (lr), and batch size (batch_size) directly in the script.
 
 At the end of each epoch, the script will use a sample from the test set to generate a translation, allowing you to monitor the model's progress.
@@ -119,4 +118,5 @@ Inference:
 
 generate() / generate_text_simple(): Functions for generating text from a starting prompt.
 
-The final section of the script demonstrates how to use the fine-tuned model for translation on unseen data from the test set.
+The final section of the script demonstrates how to use the fine-tuned model for translation on unseen data from the te<img width="1422" height="757" alt="Screenshot 2025-09-28 005930" src="https://github.com/user-attachments/assets/1f5d1e6b-ef45-4b20-8b05-38302f4b8e7f" />
+st set.
